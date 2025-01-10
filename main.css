@@ -1,0 +1,274 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+.box{
+    display: flex;
+    border: 4px solid white;
+}
+
+.secBox{
+    display: inline-block;
+}
+
+#topBox{
+    width: 320px;
+    background-color: #1B1A55;
+}
+#currentDisplay{
+    height: 420px;
+}
+#nextMusic{
+    height: 180px;
+}
+
+#botBox{
+    width: 480px;
+    background-color: #070F2B;
+}
+
+#musicList{
+    height: 460px;
+    position: relative;
+}
+
+#playNav{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.358), rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.674));
+    height: 140px;
+    display: grid;
+    grid-template-rows: 50px 60px;
+    justify-content: center;
+    align-items: end;
+}
+
+#currentDisplayHeader{
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    padding-left: 30px;
+}
+
+#current-song{
+    text-align: center;
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.textHeader{
+    font-size:x-large;
+}
+.text{
+    font-size: large;
+}
+
+#imageContainer{
+    width: 320px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#piringan{
+    width: 200px;
+    height: 200px;
+}
+
+#musicTitle{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nextMusicText{
+    width: auto;
+    padding-top: 30px;
+    height: 150px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.358), rgba(0, 0, 0, 0.514), rgba(0, 0, 0, 0.674));
+}
+
+#nextMusicHeader{
+    padding-left: 30px;
+}
+
+#nextMusicContainer{
+    padding-top: 30px;
+    padding-left: 30px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+#textNextMusic{
+    width: 60%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#piringan2{
+    width: 60px;
+    height: 60px;
+    padding-right: 15px;
+}
+
+#addButton{
+    position: relative;
+    font-size: larger;
+    top: 70%;
+    left: 82%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    border: 0px solid black;
+    background-color: #7976C2;
+    color: #fefefe;
+}
+
+#addButton:hover{
+    filter: brightness(150%);
+}
+
+#listHeaderContainer{
+    width: auto;
+    height: 20%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    border-bottom: 1px solid beige;
+}
+#listHeader{
+    padding-bottom: 10px;
+}
+
+#playlistView{
+    height: 60%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+#songPlaylistContainer{
+    margin-left: 20px;
+    height: auto;
+    width: auto;
+}
+
+ol li{
+    margin-bottom: 10px;
+}
+
+
+.songTitleContainer{
+    display: flex;
+}
+
+.songTitle{
+    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.deleteButton{
+    background-color: #7976C2;
+    color: #fefefe;
+    font-family: monospace;
+    border-radius: 3px;
+    border-width: 0;
+    margin-left: 10%;
+}
+
+.deleteButton:hover{
+    filter: brightness(150%);
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: #070F2B;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #4a4a4a;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: #c5c5c5;
+}
+
+#proggressBarContainer{
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#646464;
+}
+
+#proggressBar{
+    width: 70%;
+    margin: 0px 10px;
+    -webkit-appearance: none;
+    appearance: none;
+    height: 4px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background: #646464;
+}
+
+#proggressBar::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    height: 10px;
+    width: 10px;
+    background: #fefefe;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#proggressBar::-moz-range-progress{
+    background: #fefefe;
+}
+
+#controlContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prev{
+    width: 25px;
+    height: 25px;
+    rotate: 180deg;
+}
+
+#prev:hover{
+    filter: brightness(150%);
+}
+
+#play{
+    width: 40px;
+    height: 40px;
+    margin: 0px 10px;
+}
+
+#next{
+    width: 25px;
+    height: 25px;
+}
+
+#next:hover{
+    filter: brightness(150%);
+}

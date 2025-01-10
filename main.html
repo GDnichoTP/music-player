@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="font">
+    <title>Pemutar Musik</title>
+</head>
+<body>
+    <div class="box">
+        <div class="secBox" id="topBox">
+            <div id="currentDisplay">
+                <div id="currentDisplayHeader">
+                    <span class="textHeader">Playing Song</span>
+                </div>
+                <div id="imageContainer">
+                    <img id="piringan1" src="./stocks/Piringan.png" alt="Song Cover"/>
+                </div>
+                <div id="musicTitle">
+                    <span class="text" id="current-song" >Oblivion"</span>
+                </div>
+            </div>
+            <div id="nextMusic">
+                <div id="nextMusicText">
+                    <div id="nextMusicHeader">
+                        <span class="textHeader">Next Song</span>
+                    </div>
+                    <div id="nextMusicContainer">
+                        <img id="piringan2" src="./stocks/Piringan.png" alt="Song Cover"/>
+                        <span class="text" id="textNextMusic"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="secBox" id="botBox">
+            <div id="musicList">
+                <div id="listHeaderContainer">
+                    <span class="textHeader" id="listHeader">Song Playlist</span>
+                </div>
+                <button onclick="insert_song()" id="addButton">+</button>
+                <div id="playlistView">
+                    <div id="songPlaylistContainer">
+                        <ol id="song-list"></ol>
+                    </div>
+                </div>
+            </div>
+            <div id="playNav">
+                <div id="proggressBarContainer">
+                    <span id="proggressStart">0:00</span>
+                    <input id="proggressBar" type="range">
+                    <span id="proggressEnd">0:00</span>
+                </div>
+                <div id="controlContainer">
+                    <img onclick="prev_song()" id="prev" src="/stocks/Stop_and_play_fill.png">
+                    <img onclick="play_song()" id="play" src="/stocks/Video_fill.png">
+                    <img onclick="next_song()" id="next" src="/stocks/Stop_and_play_fill.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
