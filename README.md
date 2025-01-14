@@ -13,7 +13,7 @@
 <!-- PROJECT LOGO -->
 </br>
 <div align="center">
-  <a href="https://github.com/GDnichoTP/music-player">
+  <a href="https://www.unud.ac.id/">
     <img src="https://github.com/dash4k/tugas-akhir-alpro-1/assets/133938416/ff71757a-1b51-44b7-b14e-b53b061d9815" alt="Logo" width="230" height="259">
   </a>
 
@@ -40,9 +40,9 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
-    <li><a href="#about-the-project">About The Project</a></li>
-    <li><a href="#building-the-project">Building The Project</a></li>
-    <li><a href="#license">License</a></li>
+    <li><a href="#about-the-project-">About The Project</a></li>
+    <li><a href="#building-the-project-">Building The Project</a></li>
+    <li><a href="#license-">License</a></li>
   </ol>
 </details>
 
@@ -63,7 +63,7 @@ git clone https://github.com/yourusername/music-player.git && cd music-player
 ### 2. Open the Project
 You can run the project in any of the following ways:
 
-#### Option 1: Open the `index.html` Directly
+#### Option 1: Open the `index.html` directly
 Navigate to the project folder and open the `index.html` file in your browser:
 
 - **Windows**: Double-click `index.html` or run:
@@ -80,7 +80,7 @@ Navigate to the project folder and open the `index.html` file in your browser:
   ```
 
 #### Option 2: Use a Local Web Server (Recommended)
-If the project uses JavaScript features like `fetch()` or other APIs requiring a server, use a local web server:
+Since the project uses a server to display the GUI, use a local web server:
 
 - **Python** (built-in):
   ```bash
@@ -114,7 +114,7 @@ b. Open `index.html` then run the extension.</br>
 <!-- LICENSE -->
 ## License 📰
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [`LICENSE`](./LICENSE) for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
