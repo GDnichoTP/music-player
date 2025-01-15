@@ -105,7 +105,7 @@ For easier file run, use an extension from VS code to launch a deployment local 
 a. Install the Live Server extension.</br>
 b. Open `index.html` then run the extension.</br>
 
-- Run with command pallete (Ctrl + Shift + P).</br>
+- Run with command pallete (<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>P</kbd>).</br>
   or
 - Press Go Live button on the right bottom corner of VS code.
 
